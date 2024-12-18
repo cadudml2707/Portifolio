@@ -8,13 +8,15 @@ function Menu() {
     const items = [
         {
             label: 'Menu',
+            command: () => window.location.href = '/'
         },
         {
             label: 'Experiências',
+            command: () => window.location.href = '/experiencias'
         },
         {
             label: 'Formação',
-            command: () => { console.log('Ajuda clicada'); }
+            command: () => window.location.href = '/formacao'
         }
     ];
 
