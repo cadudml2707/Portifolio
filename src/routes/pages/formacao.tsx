@@ -1,22 +1,26 @@
 import { Menubar } from 'primereact/menubar';
 import { Button } from 'primereact/button';
 
+import { useNavigate } from 'react-router-dom';
+
 import img from '../../assets/react.svg';
 
 function Formacao() {
 
+    const navigate = useNavigate();
+
     const items = [
         {
             label: 'Menu',
-            command: () => window.location.href = '/'
+            command: () => navigate('/')
         },
         {
             label: 'Experiências',
-            command: () => window.location.href = '/experiencias'
+            command: () => navigate('/experiencias')
         },
         {
             label: 'Formação',
-            command: () => window.location.href = '/formacao'
+            command: () => navigate('/formacao')
         }
     ];
 

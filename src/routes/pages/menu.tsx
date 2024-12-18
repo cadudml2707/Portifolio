@@ -1,22 +1,26 @@
 import { Menubar } from 'primereact/menubar';
 import { Button } from 'primereact/button';
 
+import { useNavigate} from 'react-router-dom';
+
 import img from '../../assets/react.svg';
 
 function Menu() {
 
+    const navigate = useNavigate();
+
     const items = [
         {
             label: 'Menu',
-            command: () => window.location.href = '/'
+            command: () => navigate('/')
         },
         {
             label: 'Experiências',
-            command: () => window.location.href = '/experiencias'
+            command: () => navigate('/experiencias')
         },
         {
             label: 'Formação',
-            command: () => window.location.href = '/formacao'
+            command: () => navigate('/formacao')
         }
     ];
 
@@ -49,8 +53,8 @@ function Menu() {
                 </div>
                 <img className='border-solid border-1 border-red-500' src={img} alt="logo" width={800} />
             </main>
-            <footer>
-
+            <footer className='bg-cyan-400'>
+                <p>teste</p>
             </footer>
         </div>
     )
