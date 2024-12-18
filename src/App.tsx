@@ -8,14 +8,12 @@ import 'primeicons/primeicons.css';
 
 import { PrimeReactProvider } from 'primereact/api';
 
-import Menu from './pages/menu';
-import Experiencias from './pages/experiencias';
+import AppRoutes from './routes/AppRoutes';
 
 function App() {
-
   return (
     <PrimeReactProvider>
-      <Menu />
+      <AppRoutes />
     </PrimeReactProvider>
   )
 }

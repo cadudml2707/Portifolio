@@ -5,7 +5,7 @@ function Formacao() {
 
     return (
         <div>
-            
+            <p>FORCAÇÀO</p>
         </div>
     )
 }

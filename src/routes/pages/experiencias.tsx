@@ -5,7 +5,7 @@ function Experiencias() {
 
     return (
         <div>
-            
+            <p>EXPERIENCIAS</p>
         </div>
     )
 }

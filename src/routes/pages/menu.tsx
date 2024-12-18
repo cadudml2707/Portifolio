@@ -1,7 +1,7 @@
 import { Menubar } from 'primereact/menubar';
 import { Button } from 'primereact/button';
 
-import img from '../assets/react.svg';
+import img from '../../assets/react.svg';
 
 function Menu() {
 
@@ -35,8 +35,8 @@ function Menu() {
                 <div className='align-content-center border-solid border-1 border-yellow-500'>
                     <h1 className='text-cyan-400 text-5xl' >Bem-vindo!</h1>
                     <p className='text-cyan-50 f-wrap mb-5'>
-                        Sou Carlos Eduardo Dias, desenvolvedor Front-End focado em criar interfaces intuitivas e funcionais. Busco constantemente a
-                        primorar minhas habilidades e utilizar as tecnologias mais atuais para entregar soluções de qualidade. Estou sempre aberto a
+                        Sou Carlos Eduardo Dias, desenvolvedor Front-End focado em criar interfaces intuitivas e funcionais. Busco constantemente aprimorar 
+                        minhas habilidades e utilizar as tecnologias mais atuais para entregar soluções de qualidade. Estou sempre aberto a
                         aprender e a colaborar para construir experiências digitais que atendam às necessidades dos usuários.
                     </p>
                     <div className='flex gap-3'>
