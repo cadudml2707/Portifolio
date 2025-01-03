@@ -1,7 +1,7 @@
 👋🏻 **Olá, Seja bem-vindo!**
 
 Este é meu portfólio, onde mostro através de um website minhas experiências, formações e o que faço no momento
-como dev 😁
+como dev 😁 (Ainda em desenvolvimento!)
 
 🤖 **Tecnologias que utilizei nesse projeto:**
 
