@@ -12,13 +12,13 @@ function Footer() {
                     label="LinkedIn"
                     icon="pi pi-linkedin"
                     className="p-button-text p-mr-2 text-cyan-50"
-                    onClick={() => window.open("https://www.linkedin.com/in/carloseduardodias/", "_blank")}
+                    onClick={() => window.open("https://www.linkedin.com/in/carlos-eduardo-dias-560935254/", "_blank")}
                 />
                 <Button
                     label="GitHub"
                     icon="pi pi-github"
                     className="p-button-text p-mr-2"
-                    onClick={() => window.open("https://github.com/carlosdias", "_blank")}
+                    onClick={() => window.open("https://github.com/cadudml2707", "_blank")}
                 />
             </div>
         </footer>
