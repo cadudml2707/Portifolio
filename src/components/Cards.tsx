@@ -1,58 +1,57 @@
-import React, { useState, useEffect } from 'react';
+import { Card, CardProps } from 'primereact/card';
 import { Carousel } from 'primereact/carousel';
+import imgHealthMap from '../assets/img-healthmap.svg';
+import imgMarketPay from '../assets/img-marketpay.svg'
+import { Image } from 'primereact/image';
 
-export default function BasicDemo() {
-    // Estado para armazenar os produtos
-    const [products, setProducts] = useState([]);
-
-    // Exemplo de opções responsivas para o Carousel
-    const responsiveOptions = [
+function Cards() {
+    const cardDados = [
         {
-            breakpoint: '1024px',
-            numVisible: 3,
-            numScroll: 3,
+            title: "Projeto HealthMap",
+            subtitle: "Dev Frontend/Designer",
+            text: "Sistema de gerenciamento de unidades de saúde, desenvolvido em React Native com TypeScript e integrado ao Firebase para armazenamento de dados. O projeto foi apresentado em feiras de tecnologia.",
+            img: imgHealthMap
         },
         {
-            breakpoint: '768px',
-            numVisible: 2,
-            numScroll: 2,
+            title: "MarketPay",
+            subtitle: "Dev Fullstack",
+            text: "Sistema web de ponto de venda desenvolvido em Java e TypeScript, compatível com supermercados, lojas e outros estabelecimentos. Criado para aprimorar meus conhecimentos em Java, React e integração entre backend e frontend, além de reforçar conceitos de POO.",
+            img: imgMarketPay
         },
         {
-            breakpoint: '560px',
-            numVisible: 1,
-            numScroll: 1,
+            title: "JumperBoy",
+            subtitle: "Game Devloper",
+            text: "Opa",
+            img: ''
         },
     ];
 
-    // Função para simular a busca de produtos (pode ser substituída por uma requisição API)
-    useEffect(() => {
-        const fetchedProducts = [
-            { id: 1, name: 'Produto 1', image: 'caminho/para/imagem1.jpg' },
-            { id: 2, name: 'Produto 2', image: 'caminho/para/imagem2.jpg' },
-            { id: 3, name: 'Produto 3', image: 'caminho/para/imagem3.jpg' },
-        ];
-        setProducts(fetchedProducts);
-    }, []);
-
-    // Template para renderizar cada item do Carousel
-    const productTemplate = (product: { image: string | undefined; name: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | null | undefined; }) => {
-        return (
-            <div className="product-item">
-                <img src={product.image} alt={product.name} style={{ width: '100%' }} />
-                <h4>{product.name}</h4>
+    const cardTemplate = (cardData: { title: string; subtitle: string; text: string; img: any }) => (
+        <Card
+            className='mx-5 justify-content-around shadow-4 p-3 bg-gray-800 text-white'
+            title={cardData.title}
+            subTitle={cardData.subtitle}>
+            <div className='flex flex-row gap-3 align-items-center'>
+                <Image src={cardData.img} height='120' alt={cardData.title} />
+                <p className="m-0">
+                    {cardData.text}
+                </p>
             </div>
-        );
-    };
+        </Card>
+    );
 
     return (
         <div className="card">
             <Carousel
-                value={products}
-                numVisible={3}
-                numScroll={3}
-                responsiveOptions={responsiveOptions}
-                itemTemplate={productTemplate}
+                autoplayInterval={5000}
+                value={cardDados}
+                numVisible={2}
+                numScroll={1}
+                circular
+                itemTemplate={cardTemplate}
             />
         </div>
     );
 }
+
+export default Cards;

@@ -1,6 +1,6 @@
 import { Button } from 'primereact/button';
 
-import imgMe from '../../assets/homem_feliz.jpg';
+import imgMe from '../../assets/foto_eu.jpeg';
 import imgSkills from '../../assets/habilidades.svg'
 import imgObjective from '../../assets/objetivos.svg'
 import Header from '../../components/header';
@@ -16,10 +16,10 @@ function Menu() {
                     <div className='w-4'>
                         <h1 className='text-cyan-400 text-5xl mb-5' >Quem sou eu?</h1>
                         <p className='text-justify text-cyan-50 mb-5'>
-                            Sou Carlos Eduardo Dias, desenvolvedor Front-End com experiência no desenvolvimento de projetos web, focado em criar soluções
-                            eficientes e de alta qualidade. Com formação técnica em Informática e atualmente cursando Sistemas de Informação, tenho uma base sólida
-                            em tecnologia e estou sempre buscando aprimorar meus conhecimentos técnicos. Atualmente, atuo com UX/UI Design, onde aplico minha visão técnica
-                            para criar interfaces funcionais e intuitivas.
+                        Sou Carlos Eduardo Dias, desenvolvedor de Software com experiência em projetos web. 
+                        Tenho formação técnica em Informática e curso Sistemas de Informação. 
+                        Atualmente, trabalho com UX/UI Design, criando interfaces funcionais e 
+                        intuitivas.
                         </p>
                         <div className='flex gap-3'>
                             <a href="https://www.linkedin.com/in/carlos-eduardo-dias-560935254/" target='"_blank"'>
@@ -36,17 +36,17 @@ function Menu() {
                             </a>
                         </div>
                     </div>
-                    <img draggable="false" className='select-none' src={imgMe} alt="logo" width={400} />
+                    <img draggable="false" className='select-none border-circle' src={imgMe} alt="logo" width={350} height={350} />
                 </div>
                 <div className='flex flex-wrap py-8 my-8 justify-content-around shadow-4'>
                     <img draggable="false" className='' src={imgSkills} alt="logo" width={400} />
                     <div className=' w-4'>
                         <h1 className='text-cyan-400 text-5xl mb-5' >Habilidades</h1>
                         <p className='text-justify text-cyan-50 mb-5'>
-                            Tenho habilidades tanto com desenvolvimento backend como frontend, porém o meu foco é no front. Tenho experiência com o framework ReactJS com typescript,
-                            eu o utilizo para estruturar páginas web, junto de bibliotecas como Primereact e Chakra UI para compor os componentes e o comportamento da página.
-                            Além disso, tenho amplo conhecimento em experiência de usuário, o que contribui para a criação de interfaces intuitivas. Ademais, tenho conhecimentos práticos
-                            em python e java, contribuindo para minhas habilidades em desenvolvimento de sistemas.
+                        Tenho experiência em desenvolvimento full stack, com foco no front-end. 
+                        Trabalho com ReactJS e TypeScript, usando bibliotecas como PrimeReact e Chakra UI. 
+                        Também tenho conhecimento em UX e Java, o que fortalece minhas habilidades em 
+                        desenvolvimento de sistemas.
                         </p>
                     </div>
                 </div>
@@ -54,16 +54,15 @@ function Menu() {
                     <div className=' w-4'>
                         <h1 className='text-cyan-400 text-5xl mb-5' >Objetivos</h1>
                         <p className='text-justify text-cyan-50 mb-5'>
-                            Meu principal objetivo é consolidar minha carreira como desenvolvedor Front-End,
-                            atuando em projetos desafiadores que me permitam aplicar e aprimorar minhas habilidades em tecnologias modernas.
-                            Nesse sentido, pretendo expandir meus conhecimentos em Back-End, especialmente em Python e Java, para atuar de forma mais abrangente
-                            no desenvolvimento de sistemas completos. Meu foco é me tornar um profissional full-stack, capaz de trabalhar tanto no Front-End quanto no Back-End,
-                            entregando soluções robustas e integradas.
+                        Meu objetivo é consolidar minha carreira como desenvolvedor de Software, atuando em projetos desafiadores. 
+                        Busco expandir meus conhecimentos em Back-End, especialmente em Java, 
+                        para me tornar um desenvolvedor full-stack e entregar soluções completas.
                         </p>
                     </div>
                     <img draggable="false" className='' src={imgObjective} alt="logo" width={400} />
                 </div>
-                <div className='flex flex-wrap py-8 my-8 justify-content-around shadow-4'>
+                <div className="align-content-center">
+                    <h1 className='text-cyan-400 text-5xl mb-5' >Projetos</h1>
                     <Cards />
                 </div>
             </main>
