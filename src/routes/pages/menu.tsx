@@ -18,7 +18,7 @@ function Menu() {
                         <p className='text-justify text-cyan-50 mb-5'>
                         Sou Carlos Eduardo Dias, desenvolvedor de Software com experiência em projetos web. 
                         Tenho formação técnica em Informática e curso Sistemas de Informação. 
-                        Atualmente, trabalho com UX/UI Design, criando interfaces funcionais e 
+                        Atualmente trabalho com UX/UI Design, criando interfaces funcionais e 
                         intuitivas.
                         </p>
                         <div className='flex gap-3'>
@@ -45,7 +45,7 @@ function Menu() {
                         <p className='text-justify text-cyan-50 mb-5'>
                         Tenho experiência em desenvolvimento full stack, com foco no front-end. 
                         Trabalho com ReactJS e TypeScript, usando bibliotecas como PrimeReact e Chakra UI. 
-                        Também tenho conhecimento em UX e Java, o que fortalece minhas habilidades em 
+                        Também tenho afinidade em UX e Java, além de conhecimentos sólidos de Programação Orientada a Objeto, o que fortalece minhas habilidades em 
                         desenvolvimento de sistemas.
                         </p>
                     </div>
@@ -62,7 +62,7 @@ function Menu() {
                     <img draggable="false" className='' src={imgObjective} alt="logo" width={400} />
                 </div>
                 <div className="align-content-center">
-                    <h1 className='text-cyan-400 text-5xl mb-5' >Projetos</h1>
+                    <h1 className='flex justify-content-center text-cyan-400 text-5xl mb-8' >Projetos</h1>
                     <Cards />
                 </div>
             </main>

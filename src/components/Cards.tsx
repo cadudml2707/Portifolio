@@ -1,7 +1,8 @@
 import { Card, CardProps } from 'primereact/card';
 import { Carousel } from 'primereact/carousel';
 import imgHealthMap from '../assets/img-healthmap.svg';
-import imgMarketPay from '../assets/img-marketpay.svg'
+import imgMarketPay from '../assets/img-marketpay.svg';
+import imgJumperBoy from '../assets/img-jumperboy.png';
 import { Image } from 'primereact/image';
 
 function Cards() {
@@ -21,8 +22,8 @@ function Cards() {
         {
             title: "JumperBoy",
             subtitle: "Game Devloper",
-            text: "Opa",
-            img: ''
+            text: "Jogo 2D de plataforma para desktop desenvolvido em C# com programação orientada a objetos, utilizando Unity como engine e Visual Studio para codificação, incluindo planejamento de mecânicas e ambientação de cenários.",
+            img: imgJumperBoy
         },
     ];
 
@@ -41,7 +42,7 @@ function Cards() {
     );
 
     return (
-        <div className="card">
+        <div className="card mb-8">
             <Carousel
                 autoplayInterval={5000}
                 value={cardDados}
