@@ -6,6 +6,7 @@ import imgObjective from '../../assets/objetivos.svg'
 import Header from '../../components/header';
 import Footer from '../../components/footer';
 import Cards from '../../components/Cards';
+import { NavLink } from 'react-router-dom';
 
 function Menu() {
     return (
@@ -16,10 +17,10 @@ function Menu() {
                     <div className='w-4'>
                         <h1 className='text-cyan-400 text-5xl mb-5' >Quem sou eu?</h1>
                         <p className='text-justify text-cyan-50 mb-5'>
-                        Sou Carlos Eduardo Dias, desenvolvedor de Software com experiência em projetos web. 
-                        Tenho formação técnica em Informática e curso Sistemas de Informação. 
-                        Atualmente trabalho com UX/UI Design, criando interfaces funcionais e 
-                        intuitivas.
+                            Sou Carlos Eduardo Dias, desenvolvedor de Software com experiência em projetos web.
+                            Tenho formação técnica em Informática e curso Sistemas de Informação.
+                            Atualmente trabalho com UX/UI Design, criando interfaces funcionais e
+                            intuitivas.
                         </p>
                         <div className='flex gap-3'>
                             <a href="https://www.linkedin.com/in/carlos-eduardo-dias-560935254/" target='"_blank"'>
@@ -43,10 +44,10 @@ function Menu() {
                     <div className=' w-4'>
                         <h1 className='text-cyan-400 text-5xl mb-5' >Habilidades</h1>
                         <p className='text-justify text-cyan-50 mb-5'>
-                        Tenho experiência em desenvolvimento full stack, com foco no front-end. 
-                        Trabalho com ReactJS e TypeScript, usando bibliotecas como PrimeReact e Chakra UI. 
-                        Também tenho afinidade em UX e Java, além de conhecimentos sólidos de Programação Orientada a Objeto, o que fortalece minhas habilidades em 
-                        desenvolvimento de sistemas.
+                            Tenho experiência em desenvolvimento full stack, com foco no front-end.
+                            Trabalho com ReactJS e TypeScript, usando bibliotecas como PrimeReact e Chakra UI.
+                            Também tenho afinidade em UX e Java, além de conhecimentos sólidos de Programação Orientada a Objeto, o que fortalece minhas habilidades em
+                            desenvolvimento de sistemas.
                         </p>
                     </div>
                 </div>
@@ -54,15 +55,17 @@ function Menu() {
                     <div className=' w-4'>
                         <h1 className='text-cyan-400 text-5xl mb-5' >Objetivos</h1>
                         <p className='text-justify text-cyan-50 mb-5'>
-                        Meu objetivo é consolidar minha carreira como desenvolvedor de Software, atuando em projetos desafiadores. 
-                        Busco expandir meus conhecimentos em Back-End, especialmente em Java, 
-                        para me tornar um desenvolvedor full-stack e entregar soluções completas.
+                            Meu objetivo é consolidar minha carreira como desenvolvedor de Software, atuando em projetos desafiadores.
+                            Busco expandir meus conhecimentos em Back-End, especialmente em Java,
+                            para me tornar um desenvolvedor full-stack e entregar soluções completas.
                         </p>
                     </div>
                     <img draggable="false" className='' src={imgObjective} alt="logo" width={400} />
                 </div>
                 <div className="align-content-center">
-                    <h1 className='flex justify-content-center text-cyan-400 text-5xl mb-8' >Projetos</h1>
+                    <NavLink to='/projetos' className='no-underline'>
+                        <h1 className='flex justify-content-center text-cyan-400 text-5xl mb-8' >Projetos</h1>
+                    </NavLink>
                     <Cards />
                 </div>
             </main>

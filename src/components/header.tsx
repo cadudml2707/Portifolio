@@ -21,6 +21,10 @@ function Header(){
         {
             label: 'Formação',
             command: () => navigate('/formacao')
+        },
+        {
+            label: 'projetos',
+            command: () => navigate('/projetos')
         }
     ];
 
