@@ -24,10 +24,10 @@ function Menu() {
                         </p>
                         <div className='flex gap-3'>
                             <a href="https://www.linkedin.com/in/carlos-eduardo-dias-560935254/" target='"_blank"'>
-                                <Button icon="pi pi-linkedin" rounded outlined aria-label="Filter" />
+                                <Button icon="pi pi-linkedin" rounded outlined aria-label="Filter" className='hover:bg-blue-500 hover:text-white hover:border-blue-500' />
                             </a>
                             <a href="https://github.com/cadudml2707" target='"_blank"'>
-                                <Button icon="pi pi-github" rounded outlined aria-label="Filter" />
+                                <Button icon="pi pi-github" rounded outlined aria-label="Filter" className='hover:bg-gray-800 hover:text-white hover:border-gray-800' />
                             </a>
                             <a href="mailto:carloseduardodml.profissional@gmail.com" target='"_blank"'>
                                 <Button icon="pi pi-envelope" rounded outlined aria-label="Filter" />
@@ -64,7 +64,7 @@ function Menu() {
                 </div>
                 <div className="align-content-center">
                     <NavLink to='/projetos' className='no-underline'>
-                        <h1 className='flex justify-content-center text-cyan-400 text-5xl mb-8' >Projetos</h1>
+                        <h1 className='flex justify-content-center text-cyan-400 text-5xl mb-8 hover:text-cyan-700' >Projetos</h1>
                     </NavLink>
                     <Cards />
                 </div>
