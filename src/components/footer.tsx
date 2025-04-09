@@ -2,7 +2,7 @@ import { Button } from 'primereact/button';
 
 function Footer() {
     return (
-        <footer className="bg-cyan-400 p-8">
+        <footer className="bg-cyan-600 p-8">
             <div className="p-d-flex p-ai-center">
                 <p className="p-mr-3">© {new Date().getFullYear()} Meu Portfólio</p>
                 <p>Desenvolvido por Carlos Eduardo Dias</p>
