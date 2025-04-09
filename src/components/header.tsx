@@ -21,6 +21,10 @@ function Header(){
         {
             label: 'Formação',
             command: () => navigate('/formacao')
+        },
+        {
+            label: 'projetos',
+            command: () => navigate('/projetos')
         }
     ];
 
@@ -29,7 +33,7 @@ function Header(){
     );
 
     const end = (
-        <Button label='Meu Currículo' icon='pi pi-file' />
+        <Button className='bg-cyan-500 border-none' label='Meu Currículo' icon='pi pi-file' />
     );
 
     return(
