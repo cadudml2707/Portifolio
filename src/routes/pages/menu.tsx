@@ -3,9 +3,9 @@ import { Button } from 'primereact/button';
 import imgMe from '../../assets/foto_eu.jpeg';
 import imgSkills from '../../assets/habilidades.svg'
 import imgObjective from '../../assets/objetivos.svg'
-import Header from '../../components/header';
-import Footer from '../../components/footer';
-import Cards from '../../components/Cards';
+import { Header } from '../../components/header';
+import { Footer } from '../../components/footer';
+import { Cards } from '../../components/Cards';
 import { NavLink } from 'react-router-dom';
 
 function Menu() {

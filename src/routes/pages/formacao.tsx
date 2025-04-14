@@ -1,11 +1,7 @@
-import { Button } from 'primereact/button';
+import { Header } from '../../components/header';
+import { Footer } from '../../components/footer';
 
-import img from '../../assets/react.svg';
-
-import Header from '../../components/header';
-import Footer from '../../components/footer';
-
-function Formacao() {
+export function Formacao() {
     return (
         <div>
             <Header/>
@@ -16,5 +12,3 @@ function Formacao() {
         </div>
     )
 }
-
-export default Formacao

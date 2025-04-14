@@ -1,6 +1,6 @@
 import { Button } from 'primereact/button';
 
-function Footer() {
+export function Footer() {
     return (
         <footer className="bg-cyan-600 p-8">
             <div className="p-d-flex p-ai-center">
@@ -24,5 +24,3 @@ function Footer() {
         </footer>
     );
 }
-
-export default Footer;

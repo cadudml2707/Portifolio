@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 
 import imgDev from '../assets/img-dev.svg';
 
-function Header(){
+export function Header(){
 
     const navigate = useNavigate();
 
@@ -40,5 +40,3 @@ function Header(){
         <Menubar className='w-full bg-gray-900 border-none fixed top-0 left-0 p-3 z-1' model={items} start={start} end={end} />
     );
 }
-
-export default Header;

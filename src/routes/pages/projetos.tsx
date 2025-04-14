@@ -1,5 +1,5 @@
-import Header from '../../components/header';
-import Footer from '../../components/footer';
+import { Header } from '../../components/header';
+import { Footer } from '../../components/footer';
 import videoHealthMap from '../../assets/healthmap.mp4';
 
 export function Projetos() {
@@ -19,7 +19,7 @@ export function Projetos() {
                         <p className='text-justify text-cyan-50 mb-5'>
                             Desenvolvi um software de gerenciamento de informações para unidades de saúde, com versões móvel e web. No mobile, utilizei React Native e TypeScript para
                             garantir performance e tipagem segura. Para a plataforma web, adotei HTML, CSS, JavaScript e Bootstrap para um layout responsivo. Implementei a integração
-                            dos dados em tempo real usando o Firebase como banco de dados e incorporei a Google Maps API para visualização geográfica das unidades. O objetivo foi centralizar
+                            dos dados em tempo real usando o Firebase como banco de dados e integrei a Google Maps API para visualização geográfica das unidades. O objetivo foi centralizar
                             e otimizar o acesso às informações de saúde de forma intuitiva.
                         </p>
                     </div>
