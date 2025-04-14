@@ -19,12 +19,12 @@ function Header(){
             command: () => navigate('/experiencias')
         },
         {
-            label: 'Formação',
-            command: () => navigate('/formacao')
+            label: 'Projetos',
+            command: () => navigate('/projetos')
         },
         {
-            label: 'projetos',
-            command: () => navigate('/projetos')
+            label: 'Formação',
+            command: () => navigate('/formacao')
         }
     ];
 
