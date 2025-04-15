@@ -2,12 +2,8 @@ import { Button } from 'primereact/button';
 
 function Footer() {
     return (
-        <footer className="bg-cyan-600 p-8">
-            <div className="p-d-flex p-ai-center">
-                <p className="p-mr-3">© {new Date().getFullYear()} Meu Portfólio</p>
-                <p>Desenvolvido por Carlos Eduardo Dias</p>
-            </div>
-            <div>
+        <footer>
+            <div className="flex justify-content-center p-8 bg-cyan-600">
                 <Button
                     label="LinkedIn"
                     icon="pi pi-linkedin"
@@ -20,6 +16,9 @@ function Footer() {
                     className="p-button-text p-mr-2"
                     onClick={() => window.open("https://github.com/cadudml2707", "_blank")}
                 />
+            </div>
+            <div className="flex justify-content-center p-1 bg-gray-600 text-cyan-50">
+                <p className="p-mr-3">© {new Date().getFullYear()} Meu Portfólio </p> 
             </div>
         </footer>
     );
