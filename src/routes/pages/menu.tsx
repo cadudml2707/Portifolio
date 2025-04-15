@@ -8,7 +8,7 @@ import { Footer } from '../../components/footer';
 import { Cards } from '../../components/Cards';
 import { NavLink } from 'react-router-dom';
 
-function Menu() {
+export function Menu() {
     return (
         <div>
             <Header />
@@ -73,5 +73,3 @@ function Menu() {
         </div>
     )
 }
-
-export default Menu
