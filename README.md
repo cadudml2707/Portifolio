@@ -20,16 +20,25 @@ Este é o meu portfólio! Aqui, você encontra um resumo da minha trajetória co
 ## 🖥️ Para rodar o projeto em sua máquina:
 
 Clone o repositório pelo terminal com o seguinte comando: 
-* git clone https://github.com/cadudml2707/Portifolio.git
+
+```
+git clone https://github.com/cadudml2707/Portifolio.git
+```
 
 Após a clonagem, acesse as pastas do projeto e instale as dependências do projeto:
 
-* cd Portifolio
-* npm install
+```
+cd Portifolio
+```
+```
+npm install
+```
 
 Quando a instalação for finalizada, execute o comando de inicialização do Frontend:
 
-* npm run dev
+```
+npm run dev
+```
 
 Agora o website rodará em sua máquina! 
 
