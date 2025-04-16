@@ -33,7 +33,7 @@ function Header(){
     );
 
     const end = (
-        <Button className='bg-cyan-500 border-none' label='Meu Currículo' icon='pi pi-file' />
+        <Button className='bg-orange-500 border-none' label='Meu Currículo' icon='pi pi-file' />
     );
 
     return(
