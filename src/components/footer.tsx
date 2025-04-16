@@ -12,10 +12,26 @@ function Footer() {
                     <h3 className='border-bottom-2 border-orange-500 pb-3' style={{ width: '20%' }}>
                         Contatos
                     </h3>
-                    <p>linkedin</p>
-                    <p>github</p>
-                    <p>carloseduardodml.profissional@gmail.com</p>
-                    <p>instagram</p>
+                    <p>
+                        <a className='no' href="https://www.linkedin.com/in/carlos-eduardo-dias-560935254/" target='_blanck'>
+                            linkedin
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://github.com/cadudml2707">
+                            github
+                        </a>
+                    </p>
+                    <p>
+                        <a href="mailto:carloseduardodml.profissional@gmail.com">
+                            carloseduardodml.profissional@gmail.com
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://www.instagram.com/cadudml?igsh=MTZ3Z3MxbW5rbGN1bg==">
+                            instagram
+                        </a>
+                    </p>
                 </div>
             </div>
             <div className="flex justify-content-center p-1 bg-gray-700 text-cyan-50">

@@ -12,7 +12,7 @@ function Menu() {
     return (
         <div>
             <Header />
-            <main className='px-8 my-8'>
+            <main className='lg:px-8 sm:px-8 my-8'>
                 <div className='flex flex-wrap py-8 my-8 justify-content-around shadow-4'>
                     <div className='w-4'>
                         <h1 className='text-cyan-400 text-5xl mb-5' >Quem sou eu?</h1>
