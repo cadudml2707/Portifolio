@@ -16,13 +16,13 @@ function Menu() {
                 <div className='flex flex-wrap py-8 my-8 justify-content-around shadow-4'>
                     <div className='w-4'>
                         <h1 className='text-cyan-400 text-5xl mb-5' >Quem sou eu?</h1>
-                        <p className='text-justify text-cyan-50 mb-5'>
+                        <p className=' text-justify text-cyan-50 mb-5'>
                             Sou Carlos Eduardo Dias, desenvolvedor de Software com experiência em projetos web.
                             Tenho formação técnica em Informática e curso Sistemas de Informação.
                             Atualmente trabalho com UX/UI Design, criando interfaces funcionais e
                             intuitivas.
                         </p>
-                        <div className='flex gap-3'>
+                        <div className='flex gap-3 mb-3'>
                             <a href="https://www.linkedin.com/in/carlos-eduardo-dias-560935254/" target='"_blank"'>
                                 <Button icon="pi pi-linkedin" rounded outlined aria-label="Filter" className='bg-blue-500 text-white border-blue-500 hover:bg-blue-700' />
                             </a>
@@ -37,7 +37,7 @@ function Menu() {
                             </a>
                         </div>
                     </div>
-                    <img draggable="false" className='select-none border-circle' src={imgMe} alt="logo" width={350} height={350} />
+                    <img draggable="false" className='select-none border-circle' src={imgMe} width={'350'} height={'350'} />
                 </div>
                 <div className='flex flex-wrap py-8 my-8 justify-content-around shadow-4'>
                     <img draggable="false" src={imgSkills} alt="logo" width={400} />
