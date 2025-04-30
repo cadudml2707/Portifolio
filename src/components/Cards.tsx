@@ -1,11 +1,11 @@
-import { Card, CardProps } from 'primereact/card';
+import { Card } from 'primereact/card';
 import { Carousel } from 'primereact/carousel';
 import imgHealthMap from '../assets/img-healthmap.svg';
 import imgMarketPay from '../assets/img-marketpay.svg';
 import imgJumperBoy from '../assets/img-jumperboy.png';
 import { Image } from 'primereact/image';
 
-function Cards() {
+export function Cards() {
     const cardDados = [
         {
             title: "Projeto HealthMap",
@@ -54,5 +54,3 @@ function Cards() {
         </div>
     );
 }
-
-export default Cards;

@@ -5,7 +5,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 
 import imgDev from '../assets/img-dev.svg';
 
-function Header() {
+export function Header(){
 
     const navigate = useNavigate();
     const location = useLocation();
@@ -19,20 +19,15 @@ function Header() {
 
     const items = [
         {
-            template: (<div className={`lg:text-white sm:text-gray-700 p-3 bg-gray-900 hover:bg-gray-800 ${isActive('/')}`}>Menu</div>),
+            template: (<div className={`lg:text-white sm:text-gray-700 p-3 bg-gray-900 hover:bg-gray-800 cursor-pointer ${isActive('/')}`}>Menu</div>),
             command: () => navigate('/')
         },
         {
-            template: (<div className={`lg:text-white sm:text-gray-700 p-3 hover:bg-gray-800 ${isActive('/experiencias')}`}>Experiências</div>),
+            template: (<div className={`lg:text-white sm:text-gray-700 p-3 hover:bg-gray-800 cursor-pointer ${isActive('/experiencias')}`}>Experiências</div>),
             command: () => navigate('/experiencias')
         },
         {
-            template: (<div className={`lg:text-white sm:text-gray-700 p-3 hover:bg-gray-800 ${isActive('/formacao')}`}>Formação</div>),
-            command: () => navigate('/formacao')
-
-        },
-        {
-            template: (<div className={`lg:text-white sm:text-gray-700 p-3 hover:bg-gray-800 ${isActive('/projetos')}`}>Projetos</div>),
+            template: (<div className={`lg:text-white sm:text-gray-700 p-3 hover:bg-gray-800 cursor-pointer ${isActive('/projetos')}`}>Projetos</div>),
             command: () => navigate('/projetos')
         }
     ];
@@ -49,5 +44,3 @@ function Header() {
         <Menubar className='w-full bg-gray-900 border-none fixed top-0 left-0 p-3 z-1 list-none gap-5' model={items} start={start} end={end} />
     );
 }
-
-export default Header;

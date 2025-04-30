@@ -1,9 +1,9 @@
-import Header from '../../components/header';
-import Footer from '../../components/footer';
+import { Header } from '../../components/header';
+import { Footer } from '../../components/footer';
 import imgBringel from '../../assets/bringel.svg';
 import imgVitoria from '../../assets/vitoria.jpeg';
 
-function Experiencias() {
+export function Experiencias() {
     return (
         <div>
             <Header />
@@ -49,5 +49,3 @@ function Experiencias() {
         </div>
     )
 }
-
-export default Experiencias

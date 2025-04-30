@@ -7,7 +7,7 @@ import 'primeicons/primeicons.css';
 
 import { PrimeReactProvider } from 'primereact/api';
 
-import AppRoutes from './routes/AppRoutes';
+import { AppRoutes  } from './routes/AppRoutes';
 
 function App() {
   return (
