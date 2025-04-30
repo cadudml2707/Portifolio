@@ -21,10 +21,6 @@ export function Header(){
         {
             label: 'Projetos',
             command: () => navigate('/projetos')
-        },
-        {
-            label: 'Formação',
-            command: () => navigate('/formacao')
         }
     ];
 
