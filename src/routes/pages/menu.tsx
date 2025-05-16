@@ -1,8 +1,8 @@
 import { Button } from 'primereact/button';
 
-import imgMe from '../../assets/foto_eu.jpeg';
-import imgSkills from '../../assets/habilidades.svg'
-import imgObjective from '../../assets/objetivos.svg'
+import imgMe from '../../assets/imagens/foto_eu.jpeg';
+import imgSkills from '../../assets/imagens/habilidades.svg'
+import imgObjective from '../../imagens/assets/objetivos.svg'
 import { Header } from '../../components/header';
 import { Footer } from '../../components/footer';
 import { Cards } from '../../components/Cards';
@@ -37,7 +37,7 @@ export function Menu() {
                             </a>
                         </div>
                     </div>
-                    <img draggable="false" className='select-none border-circle' src={imgMe} width={'350'} height={'350'} />
+                    <img draggable="false" className='select-none border-circle lg:w-20rem lg:h-20rem sm:w-10rem sm:h-10rem' src={imgMe} />
                 </div>
                 <div className='flex flex-wrap py-8 my-8 justify-content-around shadow-4'>
                     <img draggable="false" src={imgSkills} alt="logo" width={400} />
@@ -45,7 +45,7 @@ export function Menu() {
                         <h1 className='text-cyan-400 text-5xl mb-5' >Habilidades</h1>
                         <p className='text-justify text-cyan-50 mb-5'>
                             Tenho experiência em desenvolvimento full stack, com foco no front-end.
-                            Trabalho com ReactJS e TypeScript, usando bibliotecas como PrimeReact e Chakra UI.
+                            Trabalho com ReactJS e TypeScript, usando bibliotecasx como PrimeReact e Chakra UI.
                             Também tenho afinidade em UX e Java, além de conhecimentos sólidos de Programação Orientada a Objeto, o que fortalece minhas habilidades em
                             desenvolvimento de sistemas.
                         </p>

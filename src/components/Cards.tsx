@@ -1,8 +1,8 @@
 import { Card } from 'primereact/card';
 import { Carousel } from 'primereact/carousel';
-import imgHealthMap from '../assets/img-healthmap.svg';
-import imgMarketPay from '../assets/img-marketpay.svg';
-import imgJumperBoy from '../assets/img-jumperboy.png';
+import imgHealthMap from '../assets/imagens/img-healthmap.svg';
+import imgMarketPay from '../assets/imagens/img-marketpay.svg';
+import imgJumperBoy from '../assets/imagens/img-jumperboy.png';
 import { Image } from 'primereact/image';
 
 export function Cards() {

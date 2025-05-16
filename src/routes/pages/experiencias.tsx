@@ -1,7 +1,7 @@
 import { Header } from '../../components/header';
 import { Footer } from '../../components/footer';
-import imgBringel from '../../assets/bringel.svg';
-import imgVitoria from '../../assets/vitoria.jpeg';
+import imgBringel from '../../assets/imagens/bringel.svg';
+import imgVitoria from '../../assets/imagens/vitoria.jpeg';
 
 export function Experiencias() {
     return (
