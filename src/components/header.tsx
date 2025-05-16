@@ -3,7 +3,7 @@ import { Button } from 'primereact/button';
 
 import { useLocation, useNavigate } from 'react-router-dom';
 
-import imgDev from '../assets/img-dev.svg';
+import imgDev from '../assets/imagens/img-dev.svg';
 
 export function Header(){
 
