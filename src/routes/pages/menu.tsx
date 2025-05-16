@@ -2,7 +2,7 @@ import { Button } from 'primereact/button';
 
 import imgMe from '../../assets/imagens/foto_eu.jpeg';
 import imgSkills from '../../assets/imagens/habilidades.svg'
-import imgObjective from '../../imagens/assets/objetivos.svg'
+import imgObjective from '../../assets/imagens/objetivos.svg'
 import { Header } from '../../components/header';
 import { Footer } from '../../components/footer';
 import { Cards } from '../../components/Cards';
