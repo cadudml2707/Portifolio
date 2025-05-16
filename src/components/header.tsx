@@ -4,8 +4,9 @@ import { Button } from 'primereact/button';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 import imgDev from '../assets/imagens/img-dev.svg';
+import curriculo from '../assets/documentos/curriculo_carlos_eduardo.pdf';
 
-export function Header(){
+export function Header() {
 
     const navigate = useNavigate();
     const location = useLocation();
@@ -37,7 +38,13 @@ export function Header(){
     );
 
     const end = (
-        <Button className='bg-orange-500 border-none' label='Meu Currículo' icon='pi pi-file' />
+        <a
+            href={curriculo}
+            download="Curriculo_Carlos_Eduardo.pdf"
+            className='no-underline'
+        >
+            <Button className='bg-orange-500 border-none' label='Meu Currículo' icon='pi pi-file' />
+        </a>
     );
 
     return (

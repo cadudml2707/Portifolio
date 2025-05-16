@@ -1,17 +1,14 @@
-import { Route, BrowserRouter, Routes } from "react-router-dom";
-
+import { Route, Routes } from "react-router-dom"; // Remova BrowserRouter daqui
 import { Menu } from './pages/menu';
 import { Experiencias } from './pages/experiencias';
 import { Projetos } from './pages/projetos';
 
 export function AppRoutes() {
-    return (
-        <BrowserRouter basename="/Portifolio">
-            <Routes>
-                <Route element={<Menu/>} path="/" />
-                <Route element={<Experiencias/>} path="/experiencias" />
-                <Route element={<Projetos/>} path="/projetos"/>
-            </Routes>
-        </BrowserRouter>
-    );
+  return (
+    <Routes>
+      <Route path="/" element={<Menu />} />
+      <Route path="/experiencias" element={<Experiencias />} />
+      <Route path="/projetos" element={<Projetos />} />
+    </Routes>
+  );
 }
