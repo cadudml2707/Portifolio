@@ -6,7 +6,7 @@ import { Projetos } from './pages/projetos';
 
 export function AppRoutes() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/Portifolio">
             <Routes>
                 <Route element={<Menu/>} path="/" />
                 <Route element={<Experiencias/>} path="/experiencias" />
