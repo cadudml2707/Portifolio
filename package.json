@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/cadudml2707/Portifolio.git",
+  "homepage": "https://cadudml2707/Portifolio",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
