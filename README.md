@@ -1,4 +1,4 @@
-# 🙋🏻‍♂️ Bem-vindo ao meu Portfolio! (Em desenvolvimento)
+# 🙋🏻‍♂️ Bem-vindo ao meu Portfolio! 
 
 Este é o meu portfólio! Aqui, você encontra um resumo da minha trajetória como dev: minhas experiências, formações e o que estou trabalhando no momento. 😊
 
@@ -9,8 +9,7 @@ Este é o meu portfólio! Aqui, você encontra um resumo da minha trajetória co
 * Frontend:
   * ReactJS
   * TypeScript
-  * Axios
-  * PrimeFlex.
+  * PrimeFlex
   * PrimeReact
 * IDE:
   * VS Code
