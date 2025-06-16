@@ -2,6 +2,8 @@
 
 Este é o meu portfólio! Aqui, você encontra um resumo da minha trajetória como dev: minhas experiências, formações e o que estou trabalhando no momento. 😊
 
+**Site Hospedado:** https://cadudml2707.github.io/Portifolio/
+
 ## 🤖 Tecnologias Utilizadas:
 
 <img width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" /> <img width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" /> <img width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" /> <img width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
